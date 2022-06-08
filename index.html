@@ -15,20 +15,20 @@
     }
     </script>
   </head>
-  <body>
+  <body class="bg-secondary">
     <div class="text-center mt-5">
-        <form style="max-width: 480px; margin: auto;">
-            <img class="mt-4 mb-2" src="img/berlin-thunder-logo.png" height="72" alt="Logo">
+        <form class="card align-items-center p-3 mb-2 bg-dark text-white" style="max-width: 480px; margin: auto;">
+            <img class="mt-4 mb-2" src="img/berlin-thunder-logo.png" width="30%" alt="Logo">
             <h1 class="mt-3 font-weight-normal">Faça seu login aqui</h1>
             <label for="Email" class="sr-only"></label>
-            <input type="E-mail" id="E-mail" class="form-control" placeholder="E-mail" required autofocus>
+            <input type="E-mail" id="E-mail" class="form-control mt-3" placeholder="E-mail" required autofocus>
             <label for="senha" class="sr-only"></label>
-            <input type="password" id="senha" class="form-control" placeholder="senha">
+            <input type="password" id="senha" class="form-control mt-1" placeholder="senha">
 
             <div class="mt-4">
                 <button class="btn btn-lg btn-primary btn-block" onclick="alerta()">Entrar</button>
+                <a class="btn btn-lg btn-secondary btn-block" href="index.html" role="button">Resetar</a>
             </div>
-            <a class="btn btn-secondary mt-2 btn-block" href="index.html" role="button">Resetar</a>
         </form>
     </div>
 
